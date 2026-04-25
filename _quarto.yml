@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Is Sleep Really the Key?"
+  navbar:
+    background: "#1f2937"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    page-layout: full
+    smooth-scroll: true
